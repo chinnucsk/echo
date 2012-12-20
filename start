@@ -1,0 +1,4 @@
+#!/bin/bash
+
+erl -pa ebin -pa lib/rabbitlib/ebin -config etc/echo.config -s echo_app
+
